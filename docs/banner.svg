@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-label="MatematikaTest">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0D1117"/><stop offset="1" stop-color="#161B2E"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="78%" cy="45%" r="55%">
+    <stop offset="0" stop-color="#A78BFA" stop-opacity=".28"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#4ADE80"/>
+  </linearGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.2" fill="#FFFFFF" fill-opacity=".05"/>
+  </pattern>
+  <clipPath id="card"><rect width="1280" height="400" rx="28"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect width="1280" height="400" fill="url(#dots)"/>
+  <rect width="1280" height="400" fill="url(#glow)"/>
+  <rect x="64" y="62" width="44" height="5" rx="2.5" fill="url(#acc)"/>
+  <text x="120" y="70" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#A78BFA">ANDROID · QUIZ</text>
+  <text x="62" y="150" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="64" font-weight="800" fill="#F5F6FA" letter-spacing="-1">MatematikaTest</text>
+  <text x="64" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" fill="#B7BCD0">Mental arithmetic in three difficulty</text><text x="64" y="240" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" fill="#B7BCD0">levels, shuffled every round.</text>
+  <g transform="translate(64,300)"><rect width="70" height="32" rx="16" fill="#A78BFA" fill-opacity=".14" stroke="#A78BFA" stroke-opacity=".45"/><text x="35" y="21" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#E8EAF2">Kotlin</text></g><g transform="translate(143.6,300)"><rect width="78" height="32" rx="16" fill="#A78BFA" fill-opacity=".14" stroke="#A78BFA" stroke-opacity=".45"/><text x="39" y="21" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#E8EAF2">Intents</text></g><g transform="translate(231.79999999999998,300)"><rect width="87" height="32" rx="16" fill="#A78BFA" fill-opacity=".14" stroke="#A78BFA" stroke-opacity=".45"/><text x="43" y="21" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#E8EAF2">Material</text></g>
+  <g><rect x="800" y="44" width="400" height="312" rx="22" fill="#1E2438" stroke="#2C3450" stroke-width="2"/><text x="824" y="80" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#8B92AB" text-anchor="start" >Savol 4 / 10</text><rect x="1080" y="64" width="96" height="26" rx="13" fill="#4ADE80" fill-opacity=".2"/><text x="1128" y="82" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#4ADE80" text-anchor="middle" >medium</text><rect x="824" y="96" width="352" height="6" rx="3" fill="#3A4262"/><rect x="824" y="96" width="140" height="6" rx="3" fill="url(#acc)"><animate attributeName="width" values="105;140;140" keyTimes="0;.45;1" dur="4s" repeatCount="indefinite"/></rect><text x="1000" y="160" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="800" fill="#F5F6FA" text-anchor="middle" >7 × 5 = ?</text><rect x="824" y="196" width="170" height="58" rx="14" fill="#2A3150"/><text x="909" y="233" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#F5F6FA" text-anchor="middle" >30</text><rect x="1006" y="196" width="170" height="58" rx="14" fill="#2A3150" stroke="#2A3150" stroke-width="3"><animate attributeName="fill" values="#2A3150;#2A3150;#1F7A4D;#1F7A4D" keyTimes="0;.4;.45;1" dur="4s" repeatCount="indefinite"/><animate attributeName="stroke" values="#2A3150;#2A3150;#4ADE80;#4ADE80" keyTimes="0;.4;.45;1" dur="4s" repeatCount="indefinite"/></rect><text x="1091" y="233" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#F5F6FA" text-anchor="middle" >35</text><rect x="824" y="268" width="170" height="58" rx="14" fill="#2A3150"/><text x="909" y="305" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#F5F6FA" text-anchor="middle" >40</text><rect x="1006" y="268" width="170" height="58" rx="14" fill="#2A3150"/><text x="1091" y="305" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#F5F6FA" text-anchor="middle" >45</text><text x="1000" y="348" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#4ADE80" text-anchor="middle" opacity="0">✓ To'g'ri!<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.45;.5;1" dur="4s" repeatCount="indefinite"/></text></g>
+</g>
+</svg>
